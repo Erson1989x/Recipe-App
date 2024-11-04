@@ -326,13 +326,13 @@ body {
 }
 
 .nav__btn {
+  height: 100%;
   color: inherit;
   text-transform: uppercase;
   cursor: pointer;
   background: none;
   border: none;
   align-items: center;
-  height: 100%;
   padding: 0 1.5rem;
   font-family: inherit;
   font-size: 1.4rem;
