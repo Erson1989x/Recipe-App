@@ -7,7 +7,7 @@
 71D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\css-select133752147782928407 1
 68D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\globals133752147763644456 1
 81D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\msgpackr\index.d.cts133752147765646883 0
-74D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\index.e37f48ea.js.map133752794369954387 0
+74D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\index.e37f48ea.js.map133752879478523652 0
 75D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\csso\lib\clean133752147786717325 1
 88D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\svgo\plugins\removeXlink.js133752147786241440 0
 97D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\css-tree\lib\lexer\generic-urange.js133752147791644252 0
@@ -26,7 +26,7 @@
 100D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\css-tree\lib\syntax\config\generator.js133752147791589568 0
 90D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\core-js\full\reflect\apply.js133752147781653665 0
 85D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\to-regex-range\README.md133752147761405216 0
-71D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\index.f7626f62.css133752794369798459 0
+71D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\index.f7626f62.css133752879478313661 0
 115D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\msgpackr-extract\node_modules\detect-libc\package.json133752147762874381 0
 93D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\core-js\internals\create-html.js133752147794349461 0
 89D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\@parcel\workers\lib\index.js133752147772828055 0
@@ -79,7 +79,7 @@
 76D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\posthtml-render133752147762345651 1
 101D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\core-js\actual\array\virtual\index-of.js133752147818761652 0
 106D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\@swc\helpers\cjs\_iterable_to_array_limit.cjs133752147791705814 0
-71D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\icons.21bad73c.svg133752794369888494 0
+71D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\icons.21bad73c.svg133752879478213754 0
 91D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\core-js\modules\es.date.now.js133752147796840844 0
 132D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\css\properties.schema.json133752147772724806 0
 103D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\caniuse-lite\data\features\css-overflow.js133752147791811312 0
@@ -95,7 +95,7 @@
 92D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\caniuse-lite\data\regions\KR.js133752147796400825 0
 85D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\htmlparser2\package.json133752147765036884 0
 124D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\sample-bdb.txt133752147792051284 0
-68D:\Front-end-develop\Udemy-JS-Course\Recipe App\src\js\controller.js133752779675630378 0
+68D:\Front-end-develop\Udemy-JS-Course\Recipe App\src\js\controller.js133752876359845032 0
 78D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\@parcel\utils\src133752147783868972 1
 59D:\Front-end-develop\Udemy-JS-Course\Recipe App\.prettierrc132886955210000000 0
 96D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\@parcel\package-manager\src\Yarn.js133752147775742270 0
@@ -103,7 +103,7 @@
 85D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\escalade\sync\index.d.ts133752147766956520 0
 114D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\core-js\modules\esnext.symbol.is-well-known-symbol.js133752147807645405 0
 86D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\type-fest\ts41\index.d.ts133752147769622679 0
-75D:\Front-end-develop\Udemy-JS-Course\Recipe App\src\js\views\reciepeView.js133752158712383559 0
+75D:\Front-end-develop\Udemy-JS-Course\Recipe App\src\js\views\reciepeView.js133752879477002447 0
 99D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\core-js\full\array\virtual\for-each.js133752147810113175 0
 92D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\core-js\features\set\add-all.js133752147773673972 0
 79D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\core-js\stage\0.js133752147759978807 0
@@ -123,7 +123,7 @@
 114D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\csso\node_modules\css-tree\lib\syntax\atrule\index.js133752147791811312 0
 77D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\.bin\js-yaml.ps1133752147848495312 0
 124D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\Lexer.js133752147783998947 0
-52D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist133752794369964335 1
+52D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist133752879478533662 1
 114D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\core-js\modules\esnext.data-view.set-uint8-clamped.js133752147806455876 0
 103D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\core-js\features\weak-map\get-or-insert.js133752147811148660 0
 68D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\timsort133752147765306875 1
@@ -243,7 +243,7 @@
 91D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\core-js\modules\es.array.of.js133752147796620828 0
 87D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\sass\types\value\list.d.ts133752147786557314 0
 105D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\core-js\internals\document-create-element.js133752147795513419 0
-63D:\Front-end-develop\Udemy-JS-Course\Recipe App\src\js\model.js133752794366523719 0
+63D:\Front-end-develop\Udemy-JS-Course\Recipe App\src\js\model.js133752874006459540 0
 83D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\css-tree\lib\convertor133752147791831315 1
 92D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\css-tree\lib\syntax\node\CDO.js133752147789804347 0
 73D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\caniuse-lite133752147808636871 1
@@ -9740,8 +9740,8 @@
 72D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\.bin\semver133752147848505342 0
 76D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\.bin\semver.cmd133752147848505342 0
 70D:\Front-end-develop\Udemy-JS-Course\Recipe App\node_modules\.bin\svgo133752147848505342 0
-71D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\icons.dfd7a6db.svg133752794369758499 0
-70D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\logo.726d37a8.png133752794369768463 0
-75D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\index.f7626f62.css.map133752794369818487 0
-73D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\favicon.8b2f57bf.png133752794369903758 0
-70D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\index.e37f48ea.js133752794369924320 0
+71D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\icons.dfd7a6db.svg133752879478100797 0
+70D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\logo.726d37a8.png133752879478183673 0
+73D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\favicon.8b2f57bf.png133752879478313661 0
+70D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\index.e37f48ea.js133752879478333668 0
+75D:\Front-end-develop\Udemy-JS-Course\Recipe App\dist\index.f7626f62.css.map133752879478473837 0

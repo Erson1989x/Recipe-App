@@ -24,6 +24,7 @@ export const loadRecipe = async id => {
     };
   } catch (err) {
     // Temp error handling
-    console.error(`${err} 888888888888`);
+    console.error(`${err} 💥💥💥💥`);
+    throw err;
   }
 };
