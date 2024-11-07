@@ -7,7 +7,7 @@ class paginationView extends View {
     this._parentElement.addEventListener('click',  (e) => {
       const btn = e.target.closest('.btn--inline');
       if (!btn) return;
-      
+
       const goToPage = +btn.dataset.goto;
       
       handler(goToPage);
