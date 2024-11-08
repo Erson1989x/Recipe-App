@@ -606,13 +606,15 @@ const controlRecipes = async ()=>{
         (0, _reciepeViewJsDefault.default).renderSpinner();
         // Update results view to mark selected search result
         (0, _resultsViewJsDefault.default).update(_modelJs.getSearchResultsPage());
-        (0, _bookmarksViewJsDefault.default).update(_modelJs.state.bookmarks);
         // Loading recipe
         await _modelJs.loadRecipe(id);
         // Rendering recipe
         (0, _reciepeViewJsDefault.default).render(_modelJs.state.recipe);
+        // update bookmarks view
+        (0, _bookmarksViewJsDefault.default).update(_modelJs.state.bookmarks);
     } catch (err) {
         (0, _reciepeViewJsDefault.default).renderError();
+        console.log(err);
     }
 };
 const controlSearchResults = async ()=>{
@@ -653,7 +655,11 @@ const controlAddBookmark = ()=>{
     // 3. Render bookmarks
     (0, _bookmarksViewJsDefault.default).render(_modelJs.state.bookmarks);
 };
+const controlBookmarks = ()=>{
+    (0, _bookmarksViewJsDefault.default).render(_modelJs.state.bookmarks);
+};
 const init = ()=>{
+    (0, _bookmarksViewJsDefault.default).addHandlerRender(controlBookmarks);
     (0, _reciepeViewJsDefault.default).addHandlerRender(controlRecipes);
     (0, _reciepeViewJsDefault.default).addHandlerUpdateServings(controlServings);
     (0, _reciepeViewJsDefault.default).addHandlerBookmark(controlAddBookmark);
@@ -1988,11 +1994,15 @@ const updateServings = (newServings)=>{
     });
     state.recipe.servings = newServings;
 };
+const persistBookmarks = ()=>{
+    localStorage.setItem("bookmarks", JSON.stringify(state.bookmarks));
+};
 const addBookmark = (recipe)=>{
     // Add bookmark
     state.bookmarks.push(recipe);
     // Mark current recipe as bookmark
     if (recipe.id === state.recipe.id) state.recipe.bookmarked = true;
+    persistBookmarks();
 };
 const deleteBookmark = (id)=>{
     // Delete bookmark
@@ -2000,7 +2010,13 @@ const deleteBookmark = (id)=>{
     state.bookmarks.splice(index, 1);
     // Mark current recipe as NOT bookmarked
     if (id === state.recipe.id) state.recipe.bookmarked = false;
+    persistBookmarks();
 };
+const init = ()=>{
+    const storage = localStorage.getItem("bookmarks");
+    if (storage) state.bookmarks = JSON.parse(storage);
+};
+init();
 
 },{"regenerator-runtime":"dXNgZ","./config.js":"k5Hzs","./helpers.js":"hGI1E","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXNgZ":[function(require,module,exports) {
 /**
@@ -3182,7 +3198,6 @@ class ResultsView extends (0, _viewDefault.default) {
     _errorMessage = "No recipes found for your query. Please try again!";
     _message = "";
     _generateMarkup() {
-        console.log(this._data);
         return this._data.map((result)=>(0, _previewViewDefault.default).render(result, false)).join("");
     }
 }
@@ -3229,8 +3244,10 @@ class bookmarksView extends (0, _viewDefault.default) {
     _parentElement = document.querySelector(".bookmarks__list");
     _errorMessage = "No bookmarks yet. Find a nice recipe and bookmark it.";
     _message = "";
+    addHandlerRender(handler) {
+        window.addEventListener("load", handler);
+    }
     _generateMarkup() {
-        console.log(this._data);
         return this._data.map((bookmark)=>(0, _previewViewDefault.default).render(bookmark, false)).join("");
     }
 }
